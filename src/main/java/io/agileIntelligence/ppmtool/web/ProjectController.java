@@ -19,7 +19,7 @@ import io.agileIntelligence.ppmtool.services.MapValidationErrorService;
 import io.agileIntelligence.ppmtool.services.ProjectService;
 
 @RestController
-@RequestMapping("/api/project")
+@RequestMapping("/api/project") 
 public class ProjectController {
 
 	@Autowired
