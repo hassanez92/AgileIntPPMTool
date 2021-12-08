@@ -16,7 +16,7 @@ img {
 
 .list-group-item.update:hover {
   cursor: -webkit-grab;
-  background-color: gainsboro;
+  background-color: rgb(221, 24, 24);
 }
 
 .list-group-item.board:hover {
