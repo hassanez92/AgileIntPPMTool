@@ -3,7 +3,7 @@ img {
 }
 
 .navbar {
-  background-color: #e3f2fd;
+  background-color: #062f64;
 }
 .fa.fa-edit {
   color: #18a2b9;
@@ -16,12 +16,12 @@ img {
 
 .list-group-item.update:hover {
   cursor: -webkit-grab;
-  background-color: rgb(221, 24, 24);
+  background-color: rgb(2, 19, 29);
 }
 
 .list-group-item.board:hover {
   cursor: -webkit-grab;
-  background-color: gainsboro;
+  background-color: rgb(62, 238, 39);
 }
 
 .fa.fa-minus-circle {
@@ -43,7 +43,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(78, 10, 134, 0.897);
   position: absolute;
   top: 0;
   left: 0;
@@ -55,6 +55,10 @@ img {
   opacity: 0.9;
 }
 
+.bg-scrummaster {
+  color: rgb(233, 96, 17) !important;
+}
+
 .latest-profiles-img {
   width: 40px;
   height: 40px;
@@ -62,4 +66,17 @@ img {
 
 .form-control::placeholder {
   color: #bbb !important;
+}
+
+.scrumMainFont {
+  font-weight: normal !important;
+  font-family: serif !important;
+  font-size: x-large;
+  color: #030303 !important;
+}
+
+.scrumFancyFont {
+  font-family: Brush Script MT, Brush Script Std, cursive !important;
+  font-size: 24px;
+  color: #030303 !important;
 }
