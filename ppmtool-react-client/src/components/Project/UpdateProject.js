@@ -3,7 +3,6 @@ import { getProject } from "../../actions/projectActions";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import classnames from "classnames";
-import mapStateToProps from "react-redux/lib/connect/mapStateToProps";
 
 class UpdateProject extends Component {
   componentDidMount() {
