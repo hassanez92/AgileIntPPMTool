@@ -1,6 +1,9 @@
 package io.agileIntelligence.ppmtool.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import io.agileIntelligence.ppmtool.domain.Backlog;
@@ -45,6 +48,11 @@ public class ProjectTaskService {
 		}
 
 		return projectTaskRepository.save(projectTask);
+	}
+
+	public Iterable<ProjectTask> findBacklogById(String id) {
+		// TODO Auto-generated method stub
+		return projectTaskRepository.findByProjectIdentifierOrderByPriority(id);
 	}
 
 }
